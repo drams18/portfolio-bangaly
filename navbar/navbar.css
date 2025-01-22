@@ -1,8 +1,13 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(145, 145, 145);
+    background-image: url('../img/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
+
 
 .navbar{
     background-color: #333;
@@ -114,7 +119,7 @@ body {
 }
 
 .carousel-container {
-    width: 70%; /* Largeur personnalisée pour ne pas occuper toute la page */
+    width: 70%;
     max-width: 800px;
     overflow: hidden;
     border-radius: 10px;
@@ -129,7 +134,7 @@ body {
 }
 
 .carousel-slide {
-    min-width: 100%; /* Chaque slide occupe toute la largeur du container */
+    min-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,7 +142,7 @@ body {
 
 .carousel-slide img {
     width: 100%;
-    height: 300px; /* Hauteur personnalisée */
-    object-fit: cover; /* Ajuste les images sans déformation */
+    height: 300px;
+    object-fit: cover;
     border-bottom: 5px solid #ddd;
 }
